@@ -16,12 +16,11 @@ public class Main {
         Effet1 e1= new Effet1();
         Effet2 e2= new Effet2();
         Effet3 e3= new Effet3();
-        lesEffets.add(e1);
-        lesEffets.add(e2);
-        lesEffets.add(e3);
-
 
         Scenario scena = new Scenario(lesEffets, monBandeau);
+        scena.addEffet(e1);
+        scena.addEffet(e2);
+        scena.addEffet(e3);
         scena.actionnerLesEffets();
 
     }

@@ -21,4 +21,8 @@ public class Scenario {
         monBandeau.close();
     }
 
+    public  void addEffet(Effet e){
+        lesEffets.add(e);
+    }
+
 }
